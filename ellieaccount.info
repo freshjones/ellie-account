@@ -1,5 +1,5 @@
-name = ellie sites
-description = ellie sales site profile
+name = ellie account sites
+description = ellie account site profile
 core = 7.x
 
 ; MZ - core

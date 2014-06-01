@@ -8,7 +8,7 @@
  * This contains a lot of soft configuration, i.e. things that should not go into features since they will
  * likely be changed over the course of the project.
  */
-function ellie_install() { 
+function ellieaccount_install() { 
 	
 	// From the minimal profile
 	// Only administrators can create user accounts.
