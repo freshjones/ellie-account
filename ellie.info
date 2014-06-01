@@ -1,0 +1,55 @@
+name = ellie sites
+description = ellie sales site profile
+core = 7.x
+
+; MZ - core
+dependencies[] = block
+;dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+;dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+
+; MZ - general
+dependencies[] = libraries
+dependencies[] = masquerade
+dependencies[] = addressfield
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = entity_token
+dependencies[] = link
+dependencies[] = menu_block
+dependencies[] = token
+dependencies[] = views_content
+dependencies[] = views_bulk_operations
+dependencies[] = field_group
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = rules
+dependencies[] = rules_admin
+
+; MZ - Developer
+dependencies[] = features
+dependencies[] = strongarm
+;dependencies[] = devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
+; Commerce modules
+dependencies[] = commerce
+dependencies[] = commerce_product
+dependencies[] = commerce_product_ui
+dependencies[] = commerce_price
+dependencies[] = commerce_features
+dependencies[] = commerce_product_reference
+dependencies[] = commerce_line_item
