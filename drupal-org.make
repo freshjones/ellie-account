@@ -113,6 +113,6 @@ projects[migrate_extras][patch][] = "https://drupal.org/files/migrate_extras_ent
 
 ; Phing Drush is used to use drush in phing build tasks for CI
 libraries[phing-drush][download][type] = "git"
-libraries[phing-drush][download][url] = "https://bitbucket.org/marzeelabs/phing-drush.git"
+libraries[phing-drush][download][url] = "https://github.com/freshjones/phing-drush-task.git"
 libraries[phing-drush][destination] = drush
 libraries[phing-drush][directory_name] = phing-drush
